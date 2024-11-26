@@ -2,7 +2,7 @@
 const Header = () => {
     return (
         <div className='lg:mx-20 mb-24'>
-        {/* this is nav */}
+        {/* Navbar started */}
         <div className="navbar bg-base-100 my-12">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -47,16 +47,15 @@ const Header = () => {
             </div>
         </div>
 
-        {/* this is banner */}
+        {/* Banner started */}
         
-        <div className="hero min-h-screen " style={{ backgroundImage: "url('../../public/images/Rectangle 1.png')" , borderRadius: '24px' }}>
-            <div className="hero-overlay bg-opacity-60 rounded-3xl"></div>
-            <div className="hero-content text-center text-neutral-content">
+        <div className="hero h-[600px] rounded-3xl" style={{ backgroundImage: "url('../../public/images/Rectangle 1.png')"}}>
+            <div className="hero-content text-center text-white">
                 <div className="">
-                    <h1 className="mb-6 text-3xl lg:text-5xl font-bold text-[#FFF] mx-1.5 lg:mx-auto lg:w-[897px]">Discover an exceptional cooking class tailored for you!</h1>
-                    <p className="mb-6 lg:w-[933px] text-xs font-normal text-[#FFF] opacity-80">Embark on a culinary journey personalized to your tastes with our bespoke cooking classes. From mastering gourmet techniques to exploring international flavors, elevate your culinary skills in an experience tailored exclusively for you.</p>
-                    <button className="btn btn-accent mr-3 rounded-full">Explore Now</button>
-                    <button className="btn btn-outline btn-accent ml-3 rounded-full">Our Feedback</button>
+                    <h1 className="mb-8  text-3xl lg:text-5xl font-bold mx-1.5 lg:mx-auto lg:w-[897px]">Discover an exceptional cooking class tailored for you!</h1>
+                    <p className="mb-8 lg:w-[930px] text-lg ">Join our personalized cooking classes and elevate your skills. From mastering gourmet techniques to exploring global flavors, we tailor each experience to your unique taste.</p>
+                    <button className="btn btn-accent bg-[#0BE58A] mr-3 rounded-full text-xl font-semibold w-[200px] h-[61px]">Explore Now</button>
+                    <button className="btn btn-outline  border-white  text-white ml-3 rounded-full text-xl font-semibold w-[200px] h-[60px]">Our Feedback</button>
                 </div>
             </div>
         </div>
