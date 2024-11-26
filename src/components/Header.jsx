@@ -19,7 +19,7 @@ const Header = () => {
                         <li><a className="text-[16px] text-[#150B2B] font-normal">Search</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl text-[#150B2B] font-bold">Taste & Go</a>
+                <a className="btn btn-ghost text-3xl text-[#150B2B] font-bold">Hungry Naki</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -34,9 +34,8 @@ const Header = () => {
             </div>
             <div className="navbar-end">
                 <div className="form-control">
-                    <label className="input input-bordered flex items-center gap-1 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-6 h-6 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
-
+                    <label className="input input-bordered flex items-center  gap-1 rounded-full">
+                        <div className=""><i className="fas fa-search w-6 h-6 opacity-70 flex items-center justify-center"></i></div>
                         <input type="text" placeholder="Search" className="input  w-24 md:w-auto text-[16px] font-normal" />
                     </label>
                 </div>
@@ -50,7 +49,7 @@ const Header = () => {
 
         {/* this is banner */}
         
-        <div className="hero min-h-screen " style={{ backgroundImage: "url(https://s3-alpha-sig.figma.com/img/2b8f/f4be/d57b5fb5ad84c9f6a9b1eb9782e9b11b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bL~VLdsv-hRuXW~LIvEdTJne2vh1Xx0I33l~ndKRnQxhJymvKrRGAQEFj6iMi9FKXYy9o~JO5tu7XLBaZFPOH4LqdB1ePmBMeVtBNrYLyHB9~tf-aR3ia965uDSadF8m9QECrpx5TnhX8FdpUEJK92nCiDnMD3qy4lc3GT8VZPqyjoSswP6pCW-3xicITpf8wMaczVaq21kbMm970QukhImhycQ6E1BO9yVxh~vqHAWU9ktR5r5JO0tZR35aCGjHhASku9FbOXKdua1Dr2f2fU1yvc6bpsvSBuAb7eW0xUG8Nh0g9HaMoRoyKbhbq~4~Nm9nUEObIm~wIKpDZdh4YA__)", borderRadius: '24px' }}>
+        <div className="hero min-h-screen " style={{ backgroundImage: "url('../../public/images/Rectangle 1.png')" , borderRadius: '24px' }}>
             <div className="hero-overlay bg-opacity-60 rounded-3xl"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="">
