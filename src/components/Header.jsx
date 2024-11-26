@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-        <div className='lg:mx-20 mb-24'>
+        <div className='mb-24'>
         {/* Navbar started */}
         <div className="navbar bg-base-100 my-12">
             <div className="navbar-start">
@@ -22,14 +22,14 @@ const Header = () => {
                 <a className="btn btn-ghost text-3xl text-[#150B2B] font-bold">Hungry Naki</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li ><a className="text-[16px] text-[#150B2B] font-normal">Home</a></li>
+                <ul className="menu menu-horizontal px-1 opacity-70 text-[16px] text-[#150B2B] font-normal">
+                    <li ><a className="">Home</a></li>
                     <li>
-                        <a className="text-[16px] text-[#150B2B] font-normal">Recipes</a>
+                        <a className="">Recipes</a>
 
                     </li>
-                    <li><a className="text-[16px] text-[#150B2B] font-normal">About</a></li>
-                    <li><a className="text-[16px] text-[#150B2B] font-normal">Search</a></li>
+                    <li><a className="">About</a></li>
+                    <li><a className="">Search</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
