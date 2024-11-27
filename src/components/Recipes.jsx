@@ -29,7 +29,14 @@ const Recipes = () => {
         }
     };
     
-
+    const handlePreparingBtn =(item) =>{
+        const newCart = cart.filter(preparingItem => preparingItem.recipe_id != item.recipe_id);
+        setCart(newCart);
+        const isPrepare = prepareCart.find((pFood) => pFood.recipe_id == item.recipe_id);
+        if(!isPrepare){
+          setPrepareCart([...prepareCart, item]);
+        }
+      }
 
     return (
         <div className="">
