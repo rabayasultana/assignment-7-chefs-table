@@ -50,7 +50,7 @@ const RecipeCard = ({ recipe, handleCookBtn }) => {
           <div className="card-actions mt-6">
             <button
               onClick={() => {
-                console.log("Button clicked!");
+                // console.log("Button clicked!");
                 handleCookBtn(recipe);
               }}
               className="btn cook-btn btn-accent rounded-full"

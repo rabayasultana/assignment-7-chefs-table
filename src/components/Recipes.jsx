@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import RecipeCard from "./RecipeCard";
 import CookTable from "./CookTable";
 import CookingTable from "./CookingTable";
+import { toast, ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Recipes = () => {
 
@@ -16,7 +19,7 @@ const Recipes = () => {
     }, [])
 
 
-    console.log(recipes);
+    // console.log(recipes);
 
     // add recipe to table
     const handleCookBtn = (recipe) => {
@@ -24,8 +27,7 @@ const Recipes = () => {
         if (!isExist) {
             setCart([...cart, recipe]);
         } else {
-            // toast('Item already in the table');
-            console.log('error');
+            toast('Item already in the table');
         }
     };
     
@@ -45,6 +47,7 @@ const Recipes = () => {
             <p className="text-[16px] font-normal text-[#150B2B]
              opacity-60 mx-5 lg:w-[823px] lg:mx-auto mb-12">Embark on a flavor-filled journey with our thoughtfully curated recipes, designed to delight your palate and ignite your passion for cooking. From zesty appetizers to indulgent desserts, savor the harmony of taste and creativity in every dish.</p>
         </div>
+        <ToastContainer />
 
         {/* result */}
         <div className='lg:flex'>
