@@ -49,7 +49,7 @@ const Header = () => {
 
         {/* Banner started */}
         
-        <div className="hero h-[600px] rounded-3xl" style={{ backgroundImage: "url('../../public/images/Rectangle 1.png')"}}>
+        <div className="hero h-[600px] rounded-3xl" style={{ backgroundImage: "url('/images/Rectangle 1.png')"}}>
             <div className="hero-content text-center text-white">
                 <div className="">
                     <h1 className="mb-8  text-3xl lg:text-5xl font-bold mx-1.5 lg:mx-auto lg:w-[897px]">Discover an exceptional cooking class tailored for you!</h1>

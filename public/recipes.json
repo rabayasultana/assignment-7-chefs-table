@@ -2,7 +2,7 @@
     {
         "recipe_id": 1,
         "recipe_name": "Zesty Lemon Herb Chicken",
-        "recipe_image": "./images/1-zesty.jpg",
+        "recipe_image": "/images/1-zesty.jpg",
         "short_description": "A tangy and aromatic dish featuring tender chicken infused with lemon and fresh herbs.",
         "ingredients": [
             "600 g chicken breast",
@@ -16,7 +16,7 @@
     {
         "recipe_id": 2,
         "recipe_name": "Creamy Spinach Pasta",
-        "recipe_image": "./images/2-chreamy.jpg",
+        "recipe_image": "/images/2-chreamy.jpg",
         "short_description": "Savor the comfort of rich, creamy pasta combined with fresh spinach and garlic.",
         "ingredients": [
             "300 g pasta",
@@ -30,7 +30,7 @@
     {
         "recipe_id": 3,
         "recipe_name": "Spicy Veggie Tacos",
-        "recipe_image": "./images/3-tac.jpg",
+        "recipe_image": "/images/3-tac.jpg",
         "short_description": "Enjoy a bold mix of flavors with spiced vegetables wrapped in soft taco shells.",
         "ingredients": [
             "4 taco shells",
@@ -44,7 +44,7 @@
     {
         "recipe_id": 4,
         "recipe_name": "Garlic Butter Shrimp",
-        "recipe_image": "./images/4-garlic.jpg",
+        "recipe_image": "/images/4-garlic.jpg",
         "short_description": "A savory dish of succulent shrimp sautéed in garlic butter and fresh parsley.",
         "ingredients": [
             "500 g shrimp",
@@ -58,7 +58,7 @@
     {
         "recipe_id": 5,
         "recipe_name": "Vegetarian Sushi Rolls",
-        "recipe_image": "./images/5-shushi.jpg",
+        "recipe_image": "/images/5-shushi.jpg",
         "short_description": "Roll up a delicious combination of fresh veggies and rice with a hint of soy flavor.",
         "ingredients": [
             "2 cups sushi rice",
@@ -72,7 +72,7 @@
     {
         "recipe_id": 6,
         "recipe_name": "Tropical Mango Smoothie",
-        "recipe_image": "./images/6-TropMango.jpg",
+        "recipe_image": "/images/6-TropMango.jpg",
         "short_description": "Brighten your day with a creamy and refreshing mango smoothie packed with tropical flavors.",
         "ingredients": [
             "1 cup mango chunks",

@@ -8,7 +8,7 @@ const CookTable = ({ item, index, handlePreparingBtn }) => {
   <td className="py-3">
     <button
       onClick={() => handlePreparingBtn(item)}
-      className="btn btn-accent rounded-full px-4 py-2"
+      className="btn btn-accent bg-[#0BE58A] rounded-full px-4 py-2"
     >
       Preparing
     </button>

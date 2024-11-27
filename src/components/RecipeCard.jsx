@@ -47,13 +47,12 @@ const RecipeCard = ({ recipe, handleCookBtn }) => {
             </p>
           </div>
 
-          <div className="card-actions mt-6">
+          <div className="card-actions mt-6 ">
             <button
               onClick={() => {
-                // console.log("Button clicked!");
                 handleCookBtn(recipe);
               }}
-              className="btn cook-btn btn-accent rounded-full"
+              className="btn cook-btn btn-accent rounded-full bg-[#0BE58A]"
             >
               Want to Cook
             </button>

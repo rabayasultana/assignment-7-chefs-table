@@ -13,7 +13,7 @@ const Recipes = () => {
     const [prepareCart, setPrepareCart] = useState([]);
 
     useEffect(() => {
-        fetch('../../public/recipes.json')
+        fetch('/recipes.json')
         .then(res => res.json())
         .then(data => setRecipes(data))
     }, [])
