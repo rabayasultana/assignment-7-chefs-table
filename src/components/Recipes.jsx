@@ -56,7 +56,7 @@ const Recipes = () => {
         </div>
 
         {/* right side */}
-         {/* cooking table */}
+         {/* cook table */}
          <div className='lg:w-2/5 border mx-10 lg:mx-0  lg:mr-10  mt-5 lg:mt-0 rounded-2xl'>
           <div className=''>
             <h2 className='text-center my-6 text-[24px] font-semibold'>Want to Cook: {cart.length}</h2>
@@ -75,13 +75,6 @@ const Recipes = () => {
                 {
                   cart.map((item, index) => (
                     <CookTable key={index} item={item} index={index} handlePreparingBtn = {handlePreparingBtn}></CookTable>
-                    // <tr className=' bg-gray-100'>
-                    //   <th className="py-2 ">{index+1}</th>
-                    //   <th className="py-2 ">{item.recipe_name}</th>
-                    //   <th className="py-2 ">{item.preparing_time}</th>
-                    //   <th className="py-2 ">{item.calories}</th>
-                    //   <th className="py-2 "><button onClick={() => handlePreparing(item)} className='btn btn-accent rounded-full '>Preparing</button></th>
-                    // </tr>
                   ))
                 }
 
@@ -89,7 +82,7 @@ const Recipes = () => {
             </table>
           </div>
 
-          {/* ......... */}
+          {/* Cooking table */}
 
           <div className=''>
             <h2 className='text-center my-6 text-[24px] font-semibold'>Currently cooking: {prepareCart.length}</h2>
@@ -104,19 +97,8 @@ const Recipes = () => {
                 </tr>
               </thead>
               <tbody>
-                {/* {
-                  prepareCart.map((item, index) => (
-                    <tr className=' bg-gray-100'>
-                      <td className="py-2 ">{index+1}</td>
-                      <td className="py-2 ">{item.recipe_name}</td>
-                      <td className="py-2 ">{item.preparing_time}</td>
-                      <td className="py-2 ">{item.calories}</td>
-                      </tr>
-                  ))
-                } */}
                 {prepareCart.map((item, index) => (
                     <CookingTable key={index} item={item} index={index} ></CookingTable>
-        //   <TableRow key={index} item={item} index={index} />
         ))}
 
               </tbody>
